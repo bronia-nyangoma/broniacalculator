@@ -1,0 +1,135 @@
+body{
+    background-color: aqua;
+    
+
+}
+
+.centerCal{
+    background-color: rgb(233, 94, 14);
+    width: inherit;
+    height: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;
+
+}
+
+
+.mainContainer{
+    background-color: black;
+    width: 350px;
+    height: 450px;
+    border: 3px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+.displayDiv{
+    background-color: ghostwhite;
+    width: 288px;
+    height: 60px;
+   
+    border-radius: 5px;
+
+}
+
+.buttonsDiv{
+    width: 300px;
+    height: 350px;
+    /* border: 3px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.btn{
+    color: black;
+    font-size: 25px;
+    /* font-weight: bold; */
+    background-color: antiquewhite;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+     justify-content: center;
+     align-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: inherit;
+}
+
+.equals{
+    width: 316px;
+    color: whitesmoke;
+    font-size: 25px;
+    height: 60px;
+    text-align: center;
+     justify-content: center;
+     align-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.equals:hover{
+    width: 316px;
+    height: 61px;
+}
+
+.displayDiv:hover{
+        background-color: rgb(241, 250, 247);
+        width: 290px;
+        height: 61px;
+       
+  }
+
+
+.orangeClr{
+    background-color: orangered;
+}
+.cbtn{
+    color: black;
+    font-size: 25px;
+    /* font-weight: bold; */
+    width: 60px;
+    height: 60px;
+    text-align: center;
+     justify-content: center;
+     align-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.cbtn:hover{
+   
+    width: 61px;
+    height:61px;
+}
+.btn:hover{
+      background-color: rgb(241, 250, 247);
+      width: 61px;
+      height:61px;
+}
+.textClr{
+    color: whitesmoke;
+}
+
+
